@@ -1,7 +1,7 @@
 
 export default defineNuxtConfig({
   modules: [
-    'nuxt-windicss', 'nuxt-icon', '@pinia/nuxt', '@nuxtjs/supabase'
+    'nuxt-windicss', 'nuxt-icon', '@pinia/nuxt', 
   ],
   srcDir: 'src',
   css: ['vuetify/lib/styles/main.sass', '@mdi/font/css/materialdesignicons.min.css'],

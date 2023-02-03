@@ -7,10 +7,10 @@ s<!-- <main v-for="item in (TiendaStore.LatestProductsList)" :key="item.id">
 </template>
 
 <script setup>
-import {useTiendaStore} from "../store/tienda";
+// import {useTiendaStore} from "../store/tienda";
 
-const route = useRoute()
-const TiendaStore = useTiendaStore()
+// const route = useRoute()
+// const TiendaStore = useTiendaStore()
 
 definePageMeta({
   middleware: 'auth',
